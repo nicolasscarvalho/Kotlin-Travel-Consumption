@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:paddingLeft="45dp"
+    android:paddingRight="45dp"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/textCabecalho"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:text="@string/textCabecalho"
+        android:textSize="42sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editDistance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:layout_marginBottom="45dp"
+        android:hint="@string/editDistance"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/editPrice"
+        android:layout_marginBottom="45dp"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/editAutonomy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/editAutonomy"
+        android:layout_marginBottom="45dp"
+        android:inputType="number"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_marginBottom="45dp"
+        >
+
+        <TextView
+            android:id="@+id/textresult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textResult"
+            android:textStyle="bold"
+            android:textSize="42sp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/textResultLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textResultLabel"
+            android:textSize="18sp"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/textButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/textButton"
+        android:textSize="18sp"/>
+
+</LinearLayout>
