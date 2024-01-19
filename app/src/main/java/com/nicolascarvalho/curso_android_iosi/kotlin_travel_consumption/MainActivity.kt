@@ -36,9 +36,11 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
         if (isNull()) {
             Toast.makeText(this, "Preencha todos os campos", Toast.LENGTH_SHORT).show()
+            binding.textResult.text = "R$ 0"
         }
         else if (binding.editAutonomy.text.toString().toFloat() == 0f) {
             Toast.makeText(this, "Quilômetro por litro não pode ser igual a zero", Toast.LENGTH_SHORT).show()
+            binding.textResult.text = "R$ 0"
         }
         else {
             val distance = binding.editDistance.text.toString().toFloat()
