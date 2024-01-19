@@ -11,38 +11,38 @@
     android:gravity="center">
 
     <TextView
-        android:id="@+id/textCabecalho"
+        android:id="@+id/text_Header"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:fontFamily="cursive"
         android:gravity="center"
-        android:text="@string/textCabecalho"
+        android:text="@string/text_Header"
         android:textSize="42sp"
         android:textStyle="bold" />
 
     <EditText
-        android:id="@+id/editDistance"
+        android:id="@+id/edit_Distance"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="45dp"
         android:layout_marginBottom="45dp"
-        android:hint="@string/editDistance"
+        android:hint="@string/edit_Distance"
         android:inputType="number" />
 
     <EditText
-        android:id="@+id/editPrice"
+        android:id="@+id/edit_Price"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/editPrice"
+        android:hint="@string/edit_Price"
         android:layout_marginBottom="45dp"
         android:inputType="number"/>
 
     <EditText
-        android:id="@+id/editAutonomy"
+        android:id="@+id/edit_Autonomy"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/editAutonomy"
+        android:hint="@string/edit_Autonomy"
         android:layout_marginBottom="45dp"
         android:inputType="number"/>
 
@@ -55,28 +55,28 @@
         >
 
         <TextView
-            android:id="@+id/textresult"
+            android:id="@+id/text_Result"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/textResult"
+            android:text="@string/text_Result"
             android:textStyle="bold"
             android:textSize="42sp"
             android:layout_gravity="center"/>
 
         <TextView
-            android:id="@+id/textResultLabel"
+            android:id="@+id/text_resultLabel"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/textResultLabel"
+            android:text="@string/text_resultLabel"
             android:textSize="18sp"/>
 
     </LinearLayout>
 
     <Button
-        android:id="@+id/textButton"
+        android:id="@+id/text_sendButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/textButton"
+        android:text="@string/text_sendButton"
         android:textSize="18sp"/>
 
 </LinearLayout>

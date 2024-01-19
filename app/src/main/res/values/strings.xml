@@ -1,10 +1,10 @@
 <resources>
     <string name="app_name">Kotlin-Travel-Consumption</string>
-    <string name="textCabecalho">Consumo em Viagens</string>
-    <string name="editDistance">Distância em Km</string>
-    <string name="editPrice">Preço por litro em R$</string>
-    <string name="editAutonomy">Quilômetro por litro</string>
-    <string name="textResult">R$ 0</string>
-    <string name="textResultLabel">Será seu valor final</string>
-    <string name="textButton">Calcular</string>
+    <string name="text_Header">Consumo de Viagens</string>
+    <string name="edit_Distance">Distância em Km</string>
+    <string name="edit_Price">Preço por litro em R$</string>
+    <string name="edit_Autonomy">Quilômetro por litro</string>
+    <string name="text_Result">R$ 0</string>
+    <string name="text_resultLabel">Será seu valor final</string>
+    <string name="text_sendButton">Calcular</string>
 </resources>
